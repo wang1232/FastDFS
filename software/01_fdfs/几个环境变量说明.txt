@@ -1,0 +1,16 @@
+#在PATH中找到可执行文件程序的路径。
+export PATH =~/MyPath:$PATH
+
+#gcc找到头文件的路径
+export C_INCLUDE_PATH=/MyLib:$C_INCLUDE_PATH
+
+
+#g++找到头文件的路径
+export CPLUS_INCLUDE_PATH=/MyLib:$CPLUS_INCLUDE_PATH
+
+#找到动态链接库的路径
+export LD_LIBRARY_PATH=/MyLib:$LD_LIBRARY_PATH
+
+#找到静态库的路径
+export LIBRARY_PATH=/MyLib:$LIBRARY_PATH
+

@@ -1,0 +1,8 @@
+﻿查看端口是否被占用：
+	netstat -apn | grep 80
+	
+查看占用某个端口的进程：
+	sudo lsof -i:80
+	
+关键字搜索某个进程
+	ps -aux | grep fdfs
